@@ -25,5 +25,5 @@ def chat_bedrock(message):
 
 if __name__ == "__main__":
     message = input("AIに聞きたいことを入力してください！\n")
-    result = chat_bedrock("はじめまして！よろしくね。")
+    result = chat_bedrock(message)
     print(result)
